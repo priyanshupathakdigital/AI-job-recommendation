@@ -1,0 +1,15 @@
+import streamlit as st
+from job_recommender import JobRecommender
+
+st.set_page_config(page_title="AI Job Recommendation System", layout="wide")
+
+st.title("🤖 AI Powered Job Recommendation System")
+st.write("Enter your skills to get personalized job recommendations!")
+
+user_input = st.text_area("🧠 Your Skills (comma separated):", "Python, Machine Learning, SQL")
+
+if st.button("Find Jobs"):
+    jr = JobRecommender("jobs.csv")
+    recommendations = jr.recommend_jobs(user_input)
+    st.subheader("🎯 Recommended Jobs:")
+    st.dataframe(recommendations)

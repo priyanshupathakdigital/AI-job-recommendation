@@ -1,0 +1,6 @@
+job_id,job_title,company,location,skills,description
+1,Data Scientist,Google,Bangalore,"Python, ML, AI, SQL","Work on ML models and data pipelines"
+2,Software Engineer,Microsoft,Hyderabad,"C++, Java, Cloud","Develop and deploy scalable apps"
+3,AI Engineer,OpenAI,Remote,"Python, Deep Learning, NLP","Build and optimize AI systems"
+4,Web Developer,Infosys,Pune,"HTML, CSS, JavaScript, React","Develop client web interfaces"
+5,Data Analyst,TCS,Delhi,"SQL, Excel, Python","Analyze business data and build dashboards"
